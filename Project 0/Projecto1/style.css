@@ -1,0 +1,108 @@
+
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+    font-size: 6.5em;
+    margin: 0; /* Remove default margin */
+}
+
+h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+    font-size: 3.5em;
+}
+
+p {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50px;
+}
+
+li {
+    
+   margin-right: 30px;
+   display: inline-block;
+
+    /*list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    min-width: 16%;
+    float: none;
+    display: inline-block;
+    border-radius: 0pt;*/
+}
+
+nav a {
+    font-size: 30px;
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.container1, .container2 {
+    flex: 1;
+    max-width: 40%;
+    padding: 10px;
+}
+
+
+.container2 img {
+    max-width: 90%;
+    height: auto;
+}
+
+        /* Style for a specific div with the class "special-div" */
+.special-div {
+    margin: 50px;
+    padding: 0;
+}
+
+
+.special-div h2, .special-div p {
+    margin: 8px; /* Adjusted to be even closer */
+}
+
+.special-div p {
+    line-height: 1; /* Adjusted to make the text closer to the top */
+    display: inline-block; /* Prevents extra space below the inline element */
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 50px;
+    }
+}
