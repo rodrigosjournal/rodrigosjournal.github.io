@@ -1,1 +1,0 @@
-# rodrigosjournal.github.io
